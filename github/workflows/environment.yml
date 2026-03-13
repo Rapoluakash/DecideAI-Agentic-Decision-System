@@ -1,0 +1,16 @@
+name: decideai_env
+
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python=3.10
+  - pandas
+  - scikit-learn
+  - plotly
+  - streamlit
+  - pip
+
+  - pip:
+      - joblib
